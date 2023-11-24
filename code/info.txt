@@ -1,0 +1,39 @@
+Explain the importance of semantic elements in web development according to accessibility guidelines. Provide examples of at least two semantic HTML elements and clarify how they enhance accessibility for users with disabilities.
+
+Semantic elements are about having elements that are self-describing. Instead of just having <div>, which do not explain what content the element contains, 
+semantic elements are easier to understand for both the computer and the developer. 
+Example, instead of reading out div, div, div, the computer will read what kind of information is on each element; ex.
+<header>
+<article>
+
+
+Describe the significance of color contrast in web design concerning accessibility. 
+
+Its very important to follow the contrast guidelines as much as possibble in web design, this so it will be "easier" for the eye to navigate on the website
+but especially its necessary to use so people with visual impairments can use the website.
+
+
+How does adhering to color contrast guidelines benefit users with visual impairments, and what are the recommended contrast ratios as per WCAG standards?
+
+The Web Content Accessibility Guidelines (WCAG) provide specific recommendations for color contrast ratios. The WCAG 2.0 guidelines suggest a minimum contrast ratio of 4.5:1 for normal text and 3:1 for large text. 
+Large text is typically defined as 18pt (or 14pt bold) and above, or when text is presented in a way where it equals or exceeds 24 pixels in height.
+
+
+Discuss the role of alternative text (alt text) for images in accordance with accessibility guidelines. Why is it crucial to include descriptive alt text, and how does this contribute to making web content more accessible? 
+Provide examples to illustrate your explanation.
+
+You should always try to write an alt text for any kind of image on the website. Reason being is, if an image doesn't load properly, the user can instead read what the image was supposed to show. 
+Same goes for people with visuality disabilities. Then they at least can hear what the image would be. 
+
+
+Explain the purpose of landmarks in creating accessible web content. How do landmarks aid in navigation for users of assistive technologies, and can you provide examples of commonly used landmark elements in HTML?
+
+Landmarks are used in order to group information on a website where it belongs. For example three commonly used Landmarks are <header>, <main> and <footer>. 
+Main should, according to Landmark guidelines, always only be used once per page and it should contain all the main content. So someone with visual impairments 
+for example could easily navigate to main in order to see the content of the page.
+
+
+Describe the significance of proper form labeling. Why is it important to label form elements, and what strategies can developers implement to ensure effective labeling for improved accessibility?
+
+Form labeling is important since it assist assistive technologies such as screen readers. When using form labels the screen reader will read the label out loud instead of just the element.
+In order to have a effective strategy the developer should always try to use the <label>-element with descriptive text to make sure that the label is self explanatory.
